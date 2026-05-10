@@ -1,0 +1,30 @@
+LUXDEVHQ Week 9 Introduction to Python Assignment.
+
+Part 2: Working with JSON Data from GitHub
+Create a synthetic dataset using Mockaroo or any other synthetic data generator.
+ 
+The dataset should be exported as a JSON file.
+ 
+After creating the JSON file:
+- Upload the JSON file to a public GitHub repository.
+- Open the file on GitHub and get the raw GitHub link.
+- Use the Python requests library to extract/read the JSON data from the raw GitHub link.
+- Convert the extracted JSON data into a well-structured DataFrame.
+- Save the final output as a well-structured CSV file.
+ 
+Your Python code should clearly show the full process from requesting the data to saving it as a CSV file.
+Part 3: Working with DummyJSON API Endpoints
+ 
+Using the Python requests library, extract data from the following DummyJSON endpoints:
+ 
+Products endpoint
+https://dummyjson.com/products 
+ 
+Carts endpoint
+https://dummyjson.com/carts 
+ 
+For each endpoint:
+- Send a request using Python.
+- Extract the JSON response.
+- Convert the data into a well-structured DataFrame.
+- Save the final output as a CSV file.
